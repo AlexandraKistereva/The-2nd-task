@@ -1,7 +1,19 @@
 html {
     width: 1440px;
     height: 900px;
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
+}
+body {
+    display: flex;
+    flex-direction: row;
+}
+.all_colors{
+    display: flex;
+    flex-direction: column;
+}
+.all_discriptions {
+    display: flex;
+    flex-direction: column;
 }
 .color {
     position: relative;
@@ -12,10 +24,23 @@ html {
 }
 .discription {
     position: relative;
-    top: 20px;
-    left: 260px;
+    top: 152px;
+    left: 190px;
     width: 171px;
-    height: 70px;
+    height: 56px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #1F2041;
+}
+span {
+    display: block;
+    font-weight: 400;
 }
 #first {
     background-color: rgba(31, 32, 65, 1);
@@ -31,13 +56,38 @@ html {
 }
 #fourth {
     background-color: rgba(31, 32, 65, 0.25);
+    top: 205px;
 }
 #fiveth {
     background-color: rgba(31, 32, 65, 0.05);
+    top: 225px;
 }
 #sixth {
     background-color: #BC9CFF;
+    top: 245px;
 }
 #seventh {
     background-color: #6FCF97;
+    top: 265px;
+}
+#first_d {
+    top: 152px;
+}
+#second_d {
+    top: 186px;
+}
+#third_d {
+    top: 220px;
+}
+#fourth_d {
+    top: 254px;
+}
+#fiveth_d {
+    top: 288px;
+}
+#sixth_d {
+    top: 322px;
+}
+#seventh_d {
+    top: 356px;
 }
