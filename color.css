@@ -1,0 +1,43 @@
+html {
+    width: 1440px;
+    height: 900px;
+    background-color: #E5E5E5;
+}
+.color {
+    position: relative;
+    left: 150px;
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+}
+.discription {
+    position: relative;
+    top: 20px;
+    left: 260px;
+    width: 171px;
+    height: 70px;
+}
+#first {
+    background-color: rgba(31, 32, 65, 1);
+    top: 145px;
+}
+#second {
+    background-color: rgba(31, 32, 65, 0.75);
+    top: 165px;
+}
+#third {
+    background-color: rgba(31, 32, 65, 0.5);
+    top: 185px;
+}
+#fourth {
+    background-color: rgba(31, 32, 65, 0.25);
+}
+#fiveth {
+    background-color: rgba(31, 32, 65, 0.05);
+}
+#sixth {
+    background-color: #BC9CFF;
+}
+#seventh {
+    background-color: #6FCF97;
+}
