@@ -7,11 +7,24 @@ body {
     display: flex;
     flex-direction: row;
 }
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
 .all_colors{
     display: flex;
     flex-direction: column;
 }
 .all_discriptions {
+    display: flex;
+    flex-direction: column;
+}
+.all_headers {
+    display: flex;
+    flex-direction: column;
+}
+.all_texts {
     display: flex;
     flex-direction: column;
 }
@@ -34,60 +47,72 @@ body {
     font-weight: 700;
     font-size: 19px;
     line-height: 28px;
-    display: flex;
     align-items: center;
     color: #1F2041;
 }
+.header{
+    position: relative;
+    left: 846px;
+    top: 145px;
+    width: 70px;
+    height: 70px;
+}
+.text{
+    position: relative;
+    left: 913px;
+    top: 145px;
+    width: 369px;
+    height: 59px;
+}
 span {
-    display: block;
     font-weight: 400;
 }
-#first {
+.first {
     background-color: rgba(31, 32, 65, 1);
     top: 145px;
 }
-#second {
+.second {
     background-color: rgba(31, 32, 65, 0.75);
     top: 165px;
 }
-#third {
+.third {
     background-color: rgba(31, 32, 65, 0.5);
     top: 185px;
 }
-#fourth {
+.fourth {
     background-color: rgba(31, 32, 65, 0.25);
     top: 205px;
 }
-#fiveth {
+.fiveth {
     background-color: rgba(31, 32, 65, 0.05);
     top: 225px;
 }
-#sixth {
+.sixth {
     background-color: #BC9CFF;
     top: 245px;
 }
-#seventh {
+.seventh {
     background-color: #6FCF97;
     top: 265px;
 }
-#first_d {
+.first_d {
     top: 152px;
 }
-#second_d {
+.second_d {
     top: 186px;
 }
-#third_d {
+.third_d {
     top: 220px;
 }
-#fourth_d {
+.fourth_d {
     top: 254px;
 }
-#fiveth_d {
+.fiveth_d {
     top: 288px;
 }
-#sixth_d {
+.sixth_d {
     top: 322px;
 }
-#seventh_d {
+.seventh_d {
     top: 356px;
 }
